@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "name": "nextron-antd-starter",
+  "description": "Ant Design + Nextron (NextJS + Electron) App.",
+  "version": "1.0.0",
+  "author": "Asharam Seervi",
+  "main": "app/background.js",
+  "scripts": {
+    "dev": "nextron",
+    "build": "nextron build",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "electron-serve": "^1.0.0",
+    "electron-store": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@zeit/next-css": "^1.0.1",
+    "antd": "^4.2.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-import": "^1.13.0",
+    "electron": "^9.0.3",
+    "electron-builder": "^22.7.0",
+    "next": "^9.3.6",
+    "nextron": "^5.15.0",
+    "null-loader": "^3.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.43.0"
+  }
+}

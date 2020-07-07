@@ -1,0 +1,11 @@
+appId: com.aaimaa.nextron-antd-starter
+productName: Ant Design + Nextron (NextJS + Electron) App.
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
